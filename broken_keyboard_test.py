@@ -23,4 +23,4 @@ def test_broken_keyboard_five():
 
 def test_broken_keyboard_six():
     print('It should work with characters')
-    assert collections.Counter(brokenKeyboard.findBrokenKeys("!!??$$", "$$¡¡¿¿")) == collections.Counter(['!', '?'])
+    assert collections.Counter(brokenKeyboard.findBrokenKeys("!!??$$", "$$¡¡¿¿")) == collections.Counter(['!', '?', '$'])
